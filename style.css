@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --green: #69DDAC;
+    --yellow: #FCEA01;
+    --blue: #00E0FF;
+}
+
+body{
+    height: 100vh;
+    background-color: #B4BDF4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+}
+
+.content{
+    height: 80%;
+    width: 80%;
+    background-color: #202342;
+    border-radius: 2rem;
+    padding: 30px;
+    -webkit-box-shadow: 0px 37px 105px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 37px 105px -21px rgba(0,0,0,0.75);
+    box-shadow: 0px 37px 105px -21px rgba(0,0,0,0.75);
+}
+
+header{
+    text-align: center;
+    height: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section{
+    min-width: 200px;
+
+}
+
