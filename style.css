@@ -35,7 +35,6 @@ body{
     -moz-box-shadow: 0px 38px 105px -14px rgba(0,0,0,0.75);
     box-shadow: 0px 38px 105px -14px rgba(0,0,0,0.75);
     position: relative;
-    min-width: 800px;
 }
 
 header{
@@ -67,10 +66,6 @@ section{
     padding-left: 1rem;
     border-radius: 20px;
     background-color: var(--violet);
-}
-
-.row{
-    padding-right: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -97,4 +92,17 @@ section{
     visibility: visible;
 }
 
-
+@media screen and (max-width: 1150px){
+	.content {
+        height: fit-content;
+    }
+    
+    main {
+        flex-wrap: wrap;
+    }
+    
+    section{
+        margin-bottom: 2rem;
+        padding-right: 0;
+    }
+}
