@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-do List</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="content">
@@ -18,24 +22,55 @@
                 To-do List
             </h2>
         </header>
+        
         <main>
             <section>
                 <h3>
-                    <i class="fa-solid fa-gear" style="color: var(--blue);"></i>&nbsp;&nbsp;
+                    <i class="fa-solid fa-clock" style="color: var(--blue);"></i>&nbsp;&nbsp;
                     Pendente
                 </h3>
+                <div class="row">
+                    <div>Estudar React</div>
+                    <i class="fa-solid fa-arrow-right" style="color: var(--light-violet);"></i>
+                    <i class="fa-solid fa-trash" style="color: var(--light-violet);"></i>
+                </div>
+                <div class="row">
+                    <div>Atividade da faculdade</div>
+                    <i class="fa-solid fa-arrow-right" style="color: var(--light-violet);"></i>
+                    <i class="fa-solid fa-trash" style="color: var(--light-violet);"></i>
+                </div>
             </section>
             <section>
                 <h3>
-                    <i class="fa-solid fa-clock" style="color: var(--yellow);"></i>&nbsp;&nbsp;
+                    <i class="fa-solid fa-gears" style="color: var(--yellow);"></i>&nbsp;&nbsp;
                     Fazendo
                 </h3>
+                <div class="row">
+                    <div>Atualizando Linkedin</div>
+                    <i class="fa-solid fa-arrow-right" style="color: var(--light-violet);"></i>
+                    <i class="fa-solid fa-trash" style="color: var(--light-violet);"></i>
+                </div>
+                <div class="row">
+                    <div>Desenvolvendo site pessoal</div>
+                    <i class="fa-solid fa-arrow-right" style="color: var(--light-violet);"></i>
+                    <i class="fa-solid fa-trash" style="color: var(--light-violet);"></i>
+                </div>
+                <div class="row">
+                    <div>Buscando vagas</div>
+                    <i class="fa-solid fa-arrow-right" style="color: var(--light-violet);"></i>
+                    <i class="fa-solid fa-trash" style="color: var(--light-violet);"></i>
+                </div>
             </section>
             <section>
                 <h3>
                     <i class="fa-solid fa-flag-checkered" style="color: var(--green);"></i>&nbsp;&nbsp;
                     Concluído
                 </h3>
+                <div class="row finished">
+                    <div>Desafio FJ</div>
+                    <i class="fa-solid fa-arrow-right" style="color: var(--light-violet);"></i>
+                    <i class="fa-solid fa-trash" style="color: var(--light-violet);"></i>
+                </div>
             </section>
         </main>
     </div>
